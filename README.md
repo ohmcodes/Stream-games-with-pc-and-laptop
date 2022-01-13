@@ -112,6 +112,17 @@ On your streaming Laptop
 	
 ## Quality is depends on your network provider if your internet has low download and upload you might not get the perfect result
 ## but in this tutorial we separate the load from your gaming PC to your Laptop to have a better quality streaming
+Watch my stream click this [Link](https://youtu.be/nODyrSgXBs8?t=806)
+```
+#Gaming PC Settings 
+#Bitrate 6000 --> i will try 10k on this
+#Quality Everything
+	
+#Streaming Laptop Settings
+#Bitrate 10000
+#Quality Everything
+
+```
 	
 # Enjoy
 	
