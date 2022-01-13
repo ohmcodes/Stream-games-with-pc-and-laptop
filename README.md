@@ -3,7 +3,7 @@ Stream Games on PC then use Laptop to have high resolution and quality
 
 
 # Requirements
-  - Nginx 1.7.11.3 Gryphon.zip (http://nginx-win.ecsds.eu/download/nginx%201.7.11.3%20Gryphon.zip) 
+  - Nginx 1.7.11.3 Gryphon.zip [http://nginx-win.ecsds.eu/download/nginx%201.7.11.3%20Gryphon.zip]
   - OBS both PC and Laptop (https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.1.3-Full-Installer-x64.exe)
   - VLC for stream test (https://get.videolan.org/vlc/3.0.16/win64/vlc-3.0.16-win64.exe)
   
