@@ -3,9 +3,11 @@ Stream Games on PC then use Laptop to have high resolution and quality
 
 
 # Requirements
-  - Nginx 1.7.11.3 Gryphon.zip(http://nginx-win.ecsds.eu/download/nginx%201.7.11.3%20Gryphon.zip)
-  - OBS both PC and Laptop (https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.1.3-Full-Installer-x64.exe)
-  - VLC for stream test (https://get.videolan.org/vlc/3.0.16/win64/vlc-3.0.16-win64.exe)
+  - Gaming PC
+  - Streaming Laptop
+  - [Nginx 1.7.11.3 Gryphon.zip](http://nginx-win.ecsds.eu/download/nginx%201.7.11.3%20Gryphon.zip)
+  - [OBS both PC and Laptop](https://cdn-fastly.obsproject.com/downloads/OBS-Studio-27.1.3-Full-Installer-x64.exe)
+  - [VLC for stream test](https://get.videolan.org/vlc/3.0.16/win64/vlc-3.0.16-win64.exe)
   
   
 ## Extract Nginx
@@ -76,9 +78,41 @@ rtmp {
 
 
 # To learn more about multi platform streaming
-Tutorial (https://github.com/ohmcodes/Multistream-WSL-Ubuntu-Stunnel4-Nginx-OBS-Win10)
+[Tutorial](https://github.com/ohmcodes/Multistream-WSL-Ubuntu-Stunnel4-Nginx-OBS-Win10)
 
 # Run start.bat or to stop run stop.bat
 
 # Configure OBS
+Now you can buff your bitrate and any other setting to high
+```
+#Server
+rtmp://<your-gaming-ip-address>/live/
+#Stream key
+<totally-up-to-you>
+
+#Start Streaming
+```
+You can try if its streaming via VLC (Note: open VLC to your streaming Laptop)
+Find Media>Open Network Stream or CTRL+N
+On Network tab
+```
+#Network Protocol URL
+rtmp://<your-gaming-ip-address>/live/<stream-key>
+#Press Play
+#If all is well close it coz it will eat all your resources
+#We only use it for test
+```
+
+On your streaming Laptop
+1 Open OBS and add media source
+2 Uncheck Local File
+3 Input: rtmp://<your-gaming-ip-address>/live/<stream-key>
+4 Input Format: rtmp
+5 Configure OBS to the highest setting if you want
+	
+## Quality is depends on your network provider if your internet has low download and upload you might not get the perfect result
+## but in this tutorial we separate the load from your gaming PC to your Laptop to have a better quality streaming
+	
+# Enjoy
+	
 
