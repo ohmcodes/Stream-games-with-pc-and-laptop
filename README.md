@@ -77,13 +77,15 @@ rtmp {
 ```
 
 
-# To learn more about multi platform streaming
+### To learn more about multi platform streaming
 [Tutorial](https://github.com/ohmcodes/Multistream-WSL-Ubuntu-Stunnel4-Nginx-OBS-Win10)
 
-# Run start.bat or to stop run stop.bat
+## Run start.bat or to stop run stop.bat
 
 # Configure OBS
+
 Now you can buff your bitrate and any other setting to high
+
 ```
 #Server
 rtmp://<your-gaming-ip-address>/live/
@@ -93,7 +95,9 @@ rtmp://<your-gaming-ip-address>/live/
 #Start Streaming
 ```
 You can try if its streaming via VLC (Note: open VLC to your streaming Laptop)
+
 Find Media>Open Network Stream or CTRL+N
+
 On Network tab
 ```
 #Network Protocol URL
@@ -104,14 +108,16 @@ rtmp://<your-gaming-ip-address>/live/<stream-key>
 ```
 
 On your streaming Laptop
+
 1. Open OBS and add media source
 2. Uncheck Local File
 3. Input: rtmp://<your-gaming-ip-address>/live/<stream-key>
 4. Input Format: rtmp
 5. Configure OBS to the highest setting if you want
 	
-## Quality is depends on your network provider if your internet has low download and upload you might not get the perfect result
-## but in this tutorial we separate the load from your gaming PC to your Laptop to have a better quality streaming
+### Quality is depends on your network provider if your internet has low download and upload you might not get the perfect result
+### but in this tutorial we separate the load from your gaming PC to your Laptop to have a better quality streaming
+	
 Watch my stream click this [Link](https://youtu.be/nODyrSgXBs8?t=806)
 ```
 #Gaming PC Settings 
