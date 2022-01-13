@@ -104,11 +104,11 @@ rtmp://<your-gaming-ip-address>/live/<stream-key>
 ```
 
 On your streaming Laptop
-1 Open OBS and add media source
-2 Uncheck Local File
-3 Input: rtmp://<your-gaming-ip-address>/live/<stream-key>
-4 Input Format: rtmp
-5 Configure OBS to the highest setting if you want
+1. Open OBS and add media source
+2. Uncheck Local File
+3. Input: rtmp://<your-gaming-ip-address>/live/<stream-key>
+4. Input Format: rtmp
+5. Configure OBS to the highest setting if you want
 	
 ## Quality is depends on your network provider if your internet has low download and upload you might not get the perfect result
 ## but in this tutorial we separate the load from your gaming PC to your Laptop to have a better quality streaming
