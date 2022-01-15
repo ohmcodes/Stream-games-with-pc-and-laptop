@@ -16,6 +16,9 @@ Extract nginx to your gaming pc
 navigate to folder
 
 ## Create Bat file inside and save as start.bat and stop.bat
+Right click and create new text document
+
+rename it stat.bat or stop.bat then copy the code below
 ```
 # start.bat
 @echo off
