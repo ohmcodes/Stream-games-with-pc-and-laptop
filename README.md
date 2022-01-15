@@ -11,6 +11,7 @@ Stream Games on PC then use Laptop to have high resolution and quality
   
   
 ## Extract Nginx
+Install nginx to your gaming pc
 
 ## Create Bat file inside and save as start.bat and stop.bat
 ```
