@@ -31,7 +31,7 @@ nginx.exe -s quit
 
 ```
 
-## Create configuration file nginx.conf
+## Navigate conf folder and Create configuration file nginx.conf
 ```
 #user  nobody;
 # multiple workers works !
